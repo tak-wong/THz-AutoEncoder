@@ -18,8 +18,11 @@ Training Auto-encoder-based Optimizers for Terahertz Image Reconstruction
 
 ## Result
 full_epoch_final.pth: the trained autoencoder
+
 epoch.txt: the epoch loss and information during training. Read by "readEpochFile.m" in MATLAB.
+
 OutputMeasure_final.mat: the inference result in MATLAB format. Load by "loadOutput.m" in MATLAB.
+
 
 
 ## How to Cite
