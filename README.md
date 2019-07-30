@@ -4,7 +4,7 @@ Training Auto-encoder-based Optimizers for Terahertz Image Reconstruction
 ## How to download dataset
 1. Download the source code
 2. Extract the folder "THz-AutoEncoder"
-3. Download dataset file from url https://somewhere/THz-AutoEncoder-dataset.zip
+3. Download dataset file from url https://www.cg.informatik.uni-siegen.de/data/THz-AutoEncoder/thz-dataset.zip
 4. Extract the folder "thz-dataset" into the folder "THz-AutoEncoder"
 
 ## How to train
