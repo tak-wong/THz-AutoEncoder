@@ -48,7 +48,7 @@ def train():
 
     # Create a sub-directory under output directory for the result on a run
     folder = "./result/result-{}/".format(tstr)
-    os.mkdir(folder)
+    os.makedirs(folder, exist_ok=True)
     shutil.copy2('./scaling.py', folder)
     shutil.copy2('./THzModel.py', folder)
     shutil.copy2('./GPUSelector.py', folder)
