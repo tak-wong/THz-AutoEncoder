@@ -1,14 +1,15 @@
 # THz-AutoEncoder
 Training Auto-encoder-based Optimizers for Terahertz Image Reconstruction
 
-## How to run
+## How to train
 1. Install PyTorch
 2. Extract all files to a folder
 3. Open folder "thz-autoencoder"
 3. Run "train.py" by PyTorch
-4. Open the subfolder folder "thz-autoencoder/result/result-{time-stamp}", where {time-stamp} is the start time of the training
-5. Run "predictMeasure.py" by PyTorch
 
+## How to infer after training
+1. Open the subfolder folder "thz-autoencoder/result/result-{time-stamp}", where {time-stamp} is the start time of the training
+2. Run "predictMeasure.py" by PyTorch
 
 ## Result
 full_epoch_final.pth: the trained autoencoder
