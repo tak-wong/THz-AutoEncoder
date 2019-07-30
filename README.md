@@ -22,5 +22,3 @@ If you use this code in your scientific publication, please cite the paper
    **Training Auto-encoder-based Optimizers for Terahertz Image Reconstruction**
      (T.M. Wong, M. Kahl, P. Haring Bolivar, A. Kolb, M. Moeller),
      In German Conference on Pattern Recognition (GCPR), 2019.
-
-Copyright (C) Tak Ming Wong 2019, University of Siegen. All rights reserved.
