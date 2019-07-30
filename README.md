@@ -1,21 +1,24 @@
 # THz-AutoEncoder
 Training Auto-encoder-based Optimizers for Terahertz Image Reconstruction
 
+## How to download dataset
+1. Download the source code
+2. Extract the folder "THz-AutoEncoder"
+3. Download dataset file from url https://somewhere/THz-AutoEncoder-dataset.zip
+4. Extract the folder "thz-dataset" into the folder "THz-AutoEncoder"
+
 ## How to train
 1. Install PyTorch
-2. Extract all files to a folder
-3. Open folder "thz-autoencoder"
+2. Open folder "code"
 3. Run "train.py" by PyTorch
 
 ## How to infer after training
-1. Open the subfolder folder "thz-autoencoder/result/result-{time-stamp}", where {time-stamp} is the start time of the training
+1. Open the subfolder folder "code/result/result-{time-stamp}", where {time-stamp} is the start time of the training
 2. Run "predictMeasure.py" by PyTorch
 
 ## Result
 full_epoch_final.pth: the trained autoencoder
-
 epoch.txt: the epoch loss and information during training. Read by "readEpochFile.m" in MATLAB.
-
 OutputMeasure_final.mat: the inference result in MATLAB format. Load by "loadOutput.m" in MATLAB.
 
 
