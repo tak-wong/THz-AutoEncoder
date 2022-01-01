@@ -31,6 +31,15 @@ OutputMeasure_final.mat: the inference result in MATLAB format. Load by "loadOut
 ## How to Cite
 If you use this code in your scientific publication, please cite the paper
 
-   **Training Auto-encoder-based Optimizers for Terahertz Image Reconstruction**
-     (T.M. Wong, M. Kahl, P. Haring Bolivar, A. Kolb, M. Moeller),
+   **Training Auto-encoder-based Optimizers for Terahertz Image Reconstruction**<br/>
+     *Tak Ming Wong, Matthias Kahl, Peter Haring Bolívar, Andreas Kolb, Michael Möller,*<br/>
      In German Conference on Pattern Recognition (GCPR), 2019.
+     
+     @inproceedings{wong2019training,
+      title={Training Auto-Encoder-Based Optimizers for Terahertz Image Reconstruction},
+      author={Wong, Tak Ming and Kahl, Matthias and Haring-Bol{\'\i}var, Peter and Kolb, Andreas and M{\"o}ller, Michael},
+      booktitle={German Conference on Pattern Recognition},
+      pages={93--106},
+      year={2019},
+      organization={Springer}
+    }
